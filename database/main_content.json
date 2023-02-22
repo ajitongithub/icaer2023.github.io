@@ -1,0 +1,13 @@
+[{
+    "id": 1,
+    "id_name": "about_conference",
+    "title": "About ICAER 2023",
+    "img_src": "./assets/conference-pic-comp.jpg",
+    "content": "A warm welcome to ICAER 2023, the 9th version of the biennial International Conference on Advances in Energy Research! The rapid depletion of natural resources and the adverse changes in climate put forward great challenges for researchers. There is an imminent need to take stock of the current energy conversion and supply systems and to put forward new ideas in order to move towards a more sustainable future."
+},{
+    "id": 2,
+    "id_name": "about_department",
+    "title": "About ICAER 2023",
+    "img_src": "./assets/dept-compressed.jpg",
+    "content": "The Department of Energy Science and Engineering (DESE) focuses on research and education for the development of sustainable energy systems for the future. The Department is an unique blend of science and engineering for the Energy sector. DESE is a leading inter­disciplinary energy education and research hub. <p> DESE has developed several novel education programs focusing on the application of science and engineering to problems in energy. The Department currently has 25 core faculty members and more than 400 students (including 150 PhD students) and several associated faculty from other departments. Recent highlights in research and development include a grid connected MW scale solar thermal power plant and test facility, self cleaning solar PV modules, high efficiency PV cells based on new materials, novel Li-ion batteries, improved flow fields for Fuel Cells, and biofuel based rural electrification. DESE has cutting edge fabrication, characterisation, testing and demonstration facilities with strong industrial linkages and international collaborations. We welcome you to partner with us to help design and build sustainable energy systems For the Future.</p>"
+}]
