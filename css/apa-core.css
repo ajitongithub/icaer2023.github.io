@@ -25,7 +25,7 @@ body {
   color: rgb(236, 230, 230);
   background-color: #ffffff;
   overflow: auto;
-  background: rgb(212, 239, 248) url("./assets/icaer-bgp-comp.jpg") no-repeat fixed center;
+  background: rgb(212, 239, 248) url("../assets/icaer-bgp-comp.jpg") no-repeat fixed center;
   background-size: cover;
 }
 body header {
