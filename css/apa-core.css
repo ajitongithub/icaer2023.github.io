@@ -110,29 +110,128 @@ body svg {
   border: solid 2px rgba(18, 19, 18, 0.082);
   border-radius: 50%;
 }
-body svg .fil0 {
-  fill: rgba(95, 137, 55, 0.5058823529);
-}
-body svg .fil1 {
-  fill: rgba(118, 163, 5, 0.4588235294);
-}
 body svg .fil2 {
-  fill: rgba(247, 174, 2, 0.4392156863);
+  fill: rgba(247, 112, 2, 0.4392156863);
 }
 body svg .fil3 {
-  fill: rgba(220, 208, 115, 0.4509803922);
+  fill: rgba(221, 154, 52, 0.4509803922);
 }
 body svg .fil4 {
-  fill: rgba(211, 217, 28, 0.4666666667);
+  fill: rgba(231, 187, 42, 0.5882352941);
 }
 body svg .fil5 {
-  fill: #B8D406;
+  fill: rgba(189, 221, 48, 0.6117647059);
 }
 body svg .fil6 {
-  fill: #FEFEFE;
+  fill: #e7e7e7;
 }
 body svg .fil7 {
-  fill: rgba(196, 14, 14, 0.493);
+  fill: rgba(89, 6, 199, 0.493);
+}
+body svg .fil0 {
+  fill: rgba(45, 155, 41, 0.5058823529);
+}
+body svg .fil1 {
+  fill: rgba(114, 185, 47, 0.6156862745);
+}
+@keyframes logo_ani_2 {
+  0% {
+    fill: rgba(247, 174, 2, 0.4392156863);
+  }
+  50% {
+    fill: rgba(158, 152, 139, 0.9843137255);
+  }
+  100% {
+    fill: rgba(247, 174, 2, 0.4392156863);
+  }
+}
+@keyframes logo_ani_3 {
+  0% {
+    fill: rgba(220, 208, 115, 0.4509803922);
+  }
+  50% {
+    fill: rgba(220, 208, 115, 0.862745098);
+  }
+  100% {
+    fill: rgba(220, 208, 115, 0.4509803922);
+  }
+}
+@keyframes logo_ani_4 {
+  0% {
+    fill: rgba(211, 217, 28, 0.4666666667);
+  }
+  50% {
+    fill: rgba(211, 217, 28, 0.8784313725);
+  }
+  100% {
+    fill: rgba(211, 217, 28, 0.4666666667);
+  }
+}
+@keyframes logo_ani_5 {
+  0% {
+    fill: rgba(99, 212, 6, 0.6117647059);
+  }
+  50% {
+    fill: rgba(99, 212, 6, 0.8352941176);
+  }
+  100% {
+    fill: rgba(99, 212, 6, 0.6117647059);
+  }
+}
+@keyframes logo_ani_6 {
+  0% {
+    fill: rgba(224, 236, 253, 0.6705882353);
+  }
+  50% {
+    fill: rgba(154, 190, 243, 0.6705882353);
+  }
+  100% {
+    fill: rgba(219, 229, 243, 0.6705882353);
+  }
+}
+@keyframes logo_ani_7 {
+  0% {
+    fill: rgba(224, 236, 253, 0.6705882353);
+  }
+  50% {
+    fill: rgba(154, 190, 243, 0.6705882353);
+  }
+  100% {
+    fill: rgba(219, 229, 243, 0.6705882353);
+  }
+}
+@keyframes logo_ani_0 {
+  0% {
+    fill: rgba(224, 236, 253, 0.6705882353);
+  }
+  50% {
+    fill: rgba(154, 190, 243, 0.6705882353);
+  }
+  100% {
+    fill: rgba(219, 229, 243, 0.6705882353);
+  }
+}
+@keyframes logo_ani_1 {
+  0% {
+    fill: rgba(224, 236, 253, 0.6705882353);
+  }
+  50% {
+    fill: rgba(154, 190, 243, 0.6705882353);
+  }
+  100% {
+    fill: rgba(219, 229, 243, 0.6705882353);
+  }
+}
+@keyframes logo_ani {
+  0% {
+    fill: rgba(196, 14, 14, 0.493);
+  }
+  50% {
+    fill: rgba(17, 1, 1, 0.493);
+  }
+  100% {
+    fill: rgba(175, 13, 13, 0.493);
+  }
 }
 body .section_content {
   position: relative;

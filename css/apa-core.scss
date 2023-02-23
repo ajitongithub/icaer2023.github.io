@@ -130,41 +130,209 @@ body {
         border: solid 2px rgba(18, 19, 18, 0.082);
         border-radius: 50%;
 
-        .fil0 {
-            // fill: rgba(255, 0, 0, 0.13);
-            fill: #5f893781;
-        }
-
-        .fil1 {
-            fill: #76a30575;
-        }
 
         .fil2 {
-            fill: #f7ae0270;
+            fill: #f7700270;
+            // animation-name: logo_ani_2;
+            // animation-duration: 2s;
+            // animation-iteration-count: infinite;
+            // animation-delay: 1s;
         }
 
         .fil3 {
-            fill: #dcd07373;
+            fill: #dd9a3473;
+            // animation-name: logo_ani_3;
+            // animation-duration: 2s;
+            // animation-iteration-count: infinite;
+            // animation-delay: 3s;
         }
 
         .fil4 {
-            fill: #d3d91c77;
+            fill: #e7bb2a96;
+            // animation-name: logo_ani_4;
+            // animation-duration: 2s;
+            // animation-iteration-count: infinite;
+            // animation-delay: 5s;
         }
 
         .fil5 {
-            fill: #B8D406;
+            fill: #bddd309c;
+            // animation-name: logo_ani_5;
+            // animation-duration: 2s;
+            // animation-iteration-count: infinite;
+            // animation-delay: 7s;
         }
 
         .fil6 {
-            fill: #FEFEFE;
+            fill: #e7e7e7;
+            // animation-name: logo_ani_6;
+            // animation-duration: 2s;
+            // animation-iteration-count: infinite;
+            // animation-delay: 10s;
         }
 
         .fil7 {
-            fill: rgba(196, 14, 14, 0.493);
+            fill: rgba(89, 6, 199, 0.493);
+            // animation-name: logo_ani;
+            // animation-duration: 2s;
+            // animation-iteration-count: infinite;
+            // animation-delay: 1s;
         }
+
+        .fil0 {
+            fill: #2d9b2981;
+        // animation-name: logo_ani_0;
+        //     animation-duration: 2s;
+        //     animation-iteration-count: infinite;
+        //     animation-delay: 10s;
+        }
+
+        .fil1 {
+            fill: #72b92f9d;
+                    // animation-name: logo_ani_1;
+                    //     animation-duration: 2s;
+                    //     animation-iteration-count: infinite;
+                    //     animation-delay: 13s;
+        }
+
+    }
+
+    @keyframes logo_ani_2 {
+        0% {
+            fill: #f7ae0270;
+
+        }
+
+        50% {
+            fill: #9e988bfb;
+        }
+
+        100% {
+            fill: #f7ae0270;
+        }
+
+    }
+
+    @keyframes logo_ani_3 {
+        0% {
+            fill: #dcd07373
+        }
+
+        50% {
+            fill: #dcd073dc;
+        }
+
+        100% {
+            fill: #dcd07373
+        }
+
+    }
+
+    @keyframes logo_ani_4 {
+        0% {
+            fill: #d3d91c77
+        }
+
+        50% {
+            fill: #d3d91ce0;
+        }
+
+        100% {
+            fill: #d3d91c77
+        }
+
+    }
+
+    @keyframes logo_ani_5 {
+        0% {
+            fill: #63d4069c
+        }
+
+        50% {
+            fill: #63d406d5;
+        }
+
+        100% {
+            fill: #63d4069c
+        }
+
+    }
+
+    @keyframes logo_ani_6 {
+        0% {
+            fill: #e0ecfdab
+        }
+
+        50% {
+            fill: #9abef3ab;
+        }
+
+        100% {
+            fill: #dbe5f3ab
+        }
+
+    }
+
+    @keyframes logo_ani_7 {
+        0% {
+            fill: #e0ecfdab
+        }
+
+        50% {
+            fill: #9abef3ab;
+        }
+
+        100% {
+            fill: #dbe5f3ab
+        }
+
+    }
+
+    @keyframes logo_ani_0 {
+        0% {
+            fill: #e0ecfdab
+        }
+
+        50% {
+            fill: #9abef3ab;
+        }
+
+        100% {
+            fill: #dbe5f3ab
+        }
+
+    }
+    @keyframes logo_ani_1 {
+        0% {
+            fill: #e0ecfdab
+        }
+
+        50% {
+            fill: #9abef3ab;
+        }
+
+        100% {
+            fill: #dbe5f3ab
+        }
+
     }
 
 
+    @keyframes logo_ani {
+        0% {
+            fill: rgba(196, 14, 14, 0.493);
+
+        }
+
+        50% {
+            fill: rgba(17, 1, 1, 0.493);
+        }
+
+        100% {
+            fill: rgba(175, 13, 13, 0.493);
+        }
+
+    }
 
     .section_content {
         position: relative;
@@ -352,7 +520,6 @@ footer {
     width: 40px;
     border: solid 2px black;
     place-content: center;
-    
     border-radius: 4px;
 }
 
@@ -364,21 +531,25 @@ footer {
         place-self: end;
         outline: red;
         content: '-';
-        
+
     }
+
     .hamburger::before {
         content: '-';
         font: 800;
     }
+
     .hamburger::after {
         content: '-';
         font: 800;
     }
-    .hamburger:checked ~ .nav_list{
+
+    .hamburger:checked~.nav_list {
         // border: solid 3px red;
         visibility: visible;
         transform: translate(0);
     }
+
     // body{
     //     display: none;
     // }
@@ -391,9 +562,11 @@ footer {
         transition: all;
         transform: translate(1000px);
         flex-direction: column;
-        li{
+
+        li {
             width: 250px;
-            &:hover{
+
+            &:hover {
                 background-color: black;
                 color: white;
             }
