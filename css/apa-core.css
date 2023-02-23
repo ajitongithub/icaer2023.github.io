@@ -397,7 +397,7 @@ footer {
   grid-template-columns: 1fr 1fr;
 }
 
-.hamburger {
+.toggle {
   display: none;
   height: 40px;
   width: 40px;
@@ -408,25 +408,25 @@ footer {
 
 @media (max-width: 1220px) {
   /* … */
-  .hamburger {
+  .toggle {
     display: grid;
     place-self: end;
     outline: red;
     content: "-";
   }
-  .hamburger::before {
+  .toggle::before {
     content: "-";
     font: 800;
   }
-  .hamburger::after {
+  .toggle::after {
     content: "-";
     font: 800;
   }
-  .hamburger:checked ~ .nav_list {
+  .toggle:checked ~ .menu {
     visibility: visible;
     transform: translate(0);
   }
-  .nav_list {
+  .menu {
     display: flex;
     visibility: collapse;
     position: absolute;
@@ -436,10 +436,10 @@ footer {
     transform: translate(1000px);
     flex-direction: column;
   }
-  .nav_list li {
+  .menu li {
     width: 250px;
   }
-  .nav_list li:hover {
+  .menu li:hover {
     background-color: black;
     color: white;
   }
