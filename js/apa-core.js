@@ -15,24 +15,33 @@ document.addEventListener('DOMContentLoaded',()=>{
             about_department.innerHTML = json[1].content;
             department_pic.src = json[1].img_src;
         });
-    
-    //Load 
-    // console.log("Loaded");
-    // const artwork_section = document.querySelector(".artwork_section");
-
-    // function obCallback(payload) {
-    //     console.log(payload);
-    // }
-
-    // const ob = new IntersectionObserver(obCallback);
-    
-    // ob.observe(artwork_section)
-
     var abstract_button = document.querySelector('.btn-icaer');
-
     abstract_button.addEventListener("click", () => {
         alert("Please Check the JS file and add the links");
     })
+
+    //Intersection observer
+    if ('IntersectionObserver' in window) {
+        const section_detection = document.querySelectorAll('.section_content');
+        const observer = new IntersectionObserver(entries =>{
+            let u_list_menu = document.querySelectorAll('#menu_ul li a');
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    u_list_menu.forEach(data=>{
+                        let str_hash = data.hash.slice(1);
+                        if (str_hash == entry.target.id){
+                            data.parentElement.classList.add('select_menu');
+                        }
+                        else
+                            data.parentElement.classList.remove('select_menu');
+                    });
+                }
+            });
+        });
+        section_detection.forEach(sect=>{
+            observer.observe(sect);
+        });
+        };
 });
 
 

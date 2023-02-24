@@ -10,22 +10,21 @@
     <title>Document</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/apa-core.css" rel="stylesheet">
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
     <script src="./js/apa-core.js"></script>
 </head>
 
 <body>
-    <header>
+    <header id="main_header">
         <div class="header-logo"> ICAER</div>
         <nav class="nav_div menu-wrapper">
-            <input type="checkbox" class="toggle" />
-
+            <input type="checkbox" class="toggle"/>
             <div class="hamburger">
                 <div class="bar"></div>
             </div>
             <div class="menu">
-                <ul>
-                    <li><a href="#about_section">Conference</a></li>
+                <ul id="menu_ul">
+                    <li class="select_menu"><a href="#about_section">Conference</a></li>
                     <li><a href="#dates_section">Important Dates</a></li>
                     <li><a href="#abstract_submission_section">Abstract</a></li>
                     <li><a href="#registration_section">Registration</a></li>
@@ -37,7 +36,7 @@
         </nav>
     </header>
 
-    <article>
+    <article id="main_article">
         <section class="artwork_section">
 
             <svg xmlns="http://www.w3.org/2000/svg" width="120mm" height="120mm" version="1.1"
